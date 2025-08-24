@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Index - Gp Bootstrap Template</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+
+  <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="../assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+
+  <link href="../assets/css/main.css" rel="stylesheet">
+
+
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="Student_dashboard.html" class="logo d-flex align-items-center me-auto me-lg-0">
+
+        <h1 class="sitename" style="color: burlywood;">EVENTIFY</h1>
+
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+
+          <li><a href="Events.html">Events</a></li>
+            <li><a href="participantDash.html">DashBoard</a></li>
+            <li><a href="parAccount.html">My Account</a></li>
+          <!-- <a class="btn-getstarted" href="#" style="color: blanchedalmond;">Log-out</a> -->
+          <button id="logoutBtn" style="background: none; border: none; padding: 0; font: inherit; cursor: pointer; outline: inherit;">
+            <a class="btn-getstarted" href="#" style="color: blanchedalmond;">Log-out</a>
+          </button>
+
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+
+        
+      </nav>
+
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    
+    <section id="hero" class="hero section dark-background"> 
+        <!-- style="height:80vh; background-image: url('bg.png');"> -->
+
+    
+      <div class="container" style="height: 60vh;">
+
+                    <div id="chatbot-container" style="position: fixed; bottom: 20px; right: 20px; display: none;">
+          <iframe id="chatbot-frame" style="border:none;" height="400px" width="300px"
+            src="https://widget.kommunicate.io/chat?appId=23578c013b4c7c9d1efbca7aff236ed0f"></iframe>
+        </div>
+
+        <!-- <button id="chatbot-toggle" style="position: fixed; bottom: 20px; right: 200px; z-index: 1000;">Chat</button> -->
+        <button id="chatbot-toggle"
+            style="background: none; border: none; padding: 0; font: inherit; cursor: pointer; outline: inherit; position: fixed; bottom: 20px; left: 2vh; z-index: 1000;">
+            <a class="btn-getstarted" href="#" style="color: blanchedalmond;">Chat with us!</a>
+          </button>
+
+        <div class="row justify-content-center text-center" data-aos="fade-up" data-aos-delay="100">
+
+        </div>
+
+        <div class="row gy-4 mt-5 justify-content-center" data-aos="fade-up" data-aos-delay="200"
+          style="display: grid; grid-template-columns: repeat(3,  340px);">
+          <div style="grid-column: 1 / -1; text-align: center; font-size: 40px; font-weight: 500; margin-bottom: 5px;">
+            Current Events
+          </div>
+          <div style="grid-column: 1 / -1; text-align: center; margin-bottom: 30px;">
+            <input type="text" id="eventSearch" class="form-control" placeholder="Search events..." style="
+           max-width: 300px;
+           display: inline-block;
+           background-color: transparent;
+           border: 1px solid #fff;
+           color: #fff;
+           padding: 5px 10px;
+           border-radius: 5px;
+           outline: none;
+         ">
+          </div>
+          <div class="col-xl-2 col-md-4 event-card" style="width:40vh;" data-aos="fade-up" data-aos-delay="300">
+            <div class="icon-box">
+              <i class="bi bi-binoculars"></i>
+              <h3><a href="">Hackathon</a></h3>
+              <div class="d-flex justify-content-center gap-2 mt-2">
+                <a href="#" class="btn btn-sm btn-outline-light">Register</a>
+                <a href="#" class="btn btn-sm btn-outline-light">View Details</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-2 col-md-4 event-card" style="width:40vh;" data-aos="fade-up" data-aos-delay="300">
+            <div class="icon-box">
+              <i class="bi bi-binoculars"></i>
+              <h3><a href="">CTF</a></h3>
+              <div class="d-flex justify-content-center gap-2 mt-2">
+                <a href="#" class="btn btn-sm btn-outline-light">Register</a>
+                <a href="#" class="btn btn-sm btn-outline-light">View Details</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-2 col-md-4 event-card" style="width:40vh;" data-aos="fade-up" data-aos-delay="400">
+            <div class="icon-box">
+              <i class="bi bi-bullseye"></i>
+              <h3><a href="">Chess</a></h3>
+              <div class="d-flex justify-content-center gap-2 mt-2">
+                <a href="#" class="btn btn-sm btn-outline-light">Register</a>
+                <a href="#" class="btn btn-sm btn-outline-light">View Details</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-2 col-md-4 event-card" style="width:40vh;" data-aos="fade-up" data-aos-delay="500">
+            <div class="icon-box">
+              <i class="bi bi-fullscreen-exit"></i>
+              <h3><a href="">Programming Contest</a></h3>
+              <div class="d-flex justify-content-center gap-2 mt-2">
+                <a href="#" class="btn btn-sm btn-outline-light">Register</a>
+                <a href="#" class="btn btn-sm btn-outline-light">View Details</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-2 col-md-4 event-card" style="width:40vh;" data-aos="fade-up" data-aos-delay="600">
+            <div class="icon-box">
+              <i class="bi bi-card-list"></i>
+              <h3><a href="">Photography</a></h3>
+              <div class="d-flex justify-content-center gap-2 mt-2">
+                <a href="#" class="btn btn-sm btn-outline-light">Register</a>
+                <a href="#" class="btn btn-sm btn-outline-light">View Details</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-2 col-md-4 event-card" style="width:40vh;" data-aos="fade-up" data-aos-delay="700">
+            <div class="icon-box">
+              <i class="bi bi-gem"></i>
+              <h3><a href="">Robo Soccer</a></h3>
+              <div class="d-flex justify-content-center gap-2 mt-2">
+                <a href="#" class="btn btn-sm btn-outline-light">Register</a>
+                <a href="#" class="btn btn-sm btn-outline-light">View Details</a>
+              </div>
+            </div>
+          </div>
+
+          
+
+
+        </div>
+
+      </div>
+
+
+
+    </section>
+
+     <footer id="footer" class="footer dark-background">
+
+      <div class="footer-top">
+        <div class="container">
+          <div class="row gy-4">
+            <div class="col-lg-4 col-md-6 footer-about">
+              <a href="index.html" class="logo d-flex align-items-center">
+                <span class="sitename">Contact US</span>
+              </a>
+
+              <div class="social-links d-flex mt-4">
+                <a href=""><i class="bi bi-twitter-x"></i></a>
+                <a href=""><i class="bi bi-facebook"></i></a>
+                <a href=""><i class="bi bi-instagram"></i></a>
+                <a href=""><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
+      
+    </footer>
+
+
+
+
+
+
+    <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+        class="bi bi-arrow-up-short"></i></a>
+
+
+    <div id="preloader"></div>
+
+
+
+  </main>
+</body>
+
+<script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="../assets/vendor/php-email-form/validate.js"></script>
+<script src="../assets/vendor/aos/aos.js"></script>
+<script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
+<script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
+<script src="../assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+<script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+<script src="../assets/vendor/purecounter/purecounter_vanilla.js"></script>
+
+<script>
+  const chatbotHeader = document.getElementById('chatbot-header');
+  const chatbotBody = document.getElementById('chatbot-body');
+  const chatbotInput = document.getElementById('chatbot-input');
+  const chatbotMessages = document.getElementById('chatbot-messages');
+
+  chatbotHeader.addEventListener('click', () => {
+    chatbotBody.style.display = chatbotBody.style.display === 'flex' ? 'none' : 'flex';
+  });
+
+  chatbotInput.addEventListener('keypress', function (e) {
+    if (e.key === 'Enter' && this.value.trim() !== '') {
+      const userMsg = document.createElement('div');
+      userMsg.classList.add('chatbot-message', 'user');
+      userMsg.innerText = this.value;
+      chatbotMessages.appendChild(userMsg);
+
+      // Bot response
+      const botMsg = document.createElement('div');
+      botMsg.classList.add('chatbot-message', 'bot');
+      botMsg.innerText = "Hello! How can I help you?"; // Replace with real bot logic
+      chatbotMessages.appendChild(botMsg);
+
+      chatbotMessages.scrollTop = chatbotMessages.scrollHeight;
+      this.value = '';
+    }
+  });
+</script>
+<script>
+  const eventSearch = document.getElementById('eventSearch');
+  const eventCards = document.querySelectorAll('.event-card');
+
+  eventSearch.addEventListener('input', function () {
+    const query = this.value.toLowerCase();
+
+    eventCards.forEach(card => {
+      const title = card.querySelector('h3 a').innerText.toLowerCase();
+      if (title.includes(query)) {
+        card.style.display = ''; // reset to default (grid item)
+      } else {
+        card.style.display = 'none'; // hide the card
+      }
+    });
+  });
+
+</script>
+
+<script src="../assets/js/main.js"></script>
+<script>
+    document.getElementById("logoutBtn").addEventListener("click", async () => {
+      const res = await fetch("/api/logout", {
+        method: "POST"
+      });
+
+      const data = await res.json();
+      if (data.success) {
+        //alert("Logged out successfully!");
+        window.location.href = "login.html"; // redirect to login page
+      }
+    });
+</script>
+
+  <script>
+  const toggleBtn = document.getElementById('chatbot-toggle');
+  const chatContainer = document.getElementById('chatbot-container');
+
+  toggleBtn.addEventListener('click', () => {
+    if (chatContainer.style.display === 'none') {
+      chatContainer.style.display = 'block';
+    } else {
+      chatContainer.style.display = 'none';
+    }
+  });
+
+</script>
+
+</html>

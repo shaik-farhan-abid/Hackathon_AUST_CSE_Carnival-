@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../assets"
+		},
+		{
+			"path": "../eventify-auth"
+		},
+		{
+			"path": "../forms"
+		},
+		{
+			"path": "."
+		}
+	]
+}

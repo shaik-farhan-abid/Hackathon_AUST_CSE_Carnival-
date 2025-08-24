@@ -1,0 +1,110 @@
+.container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    width: 100vw;
+    flex-direction: row;
+    position: absolute;
+}
+
+
+#header{
+    border-bottom: 3px solid rgb(241, 161, 22);
+    /* backdrop-filter: blur(10px); */
+    position: absolute;
+    z-index: 10;
+    left: 83vw;
+    transform: translateX(-50%);
+}
+
+
+.left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width:45vw;
+    height: 100vh;
+    background-color: rgba(5, 0, 0, 0.9);
+
+}
+
+.right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    width:55vw;
+    height: 100vh;
+    /* background-color: rgb(180, 180, 255); */
+    background-image: url('../img/hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.login{
+    
+    width: 30vw;
+    height: 60vh;
+    background-color: rgba(255, 255, 255, 0.9);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 2vh;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 2vh;
+}
+
+.login-form{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 0.5vh solid #ccc; */
+}
+
+#email {
+    width: 100%;
+    padding: 1vh;
+    margin: 1vh;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    align-self: center;
+
+}
+
+#password{
+    width: 100%;
+    padding: 1vh;
+    margin: 1vh;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    position: relative;
+}
+
+#submit {
+    width: 100%;
+    padding: 1vh;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgb(5, 0, 0);
+    color: white;
+    cursor: pointer;
+    position: relative;
+}
+
+input:hover {
+    box-shadow: 0 0 0.5vh rgb(241, 161, 22);
+}
+
+input:active{
+    box-shadow: 0 0 2vh rgb(241, 161, 22);
+    /* border-color: rgb(241, 161, 22); */
+}
+
+#check{
+    scale:1.5;
+}
