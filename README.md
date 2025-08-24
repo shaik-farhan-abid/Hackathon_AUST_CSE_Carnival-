@@ -1,8 +1,8 @@
 # Hackathon_AUST_CSE_Carnival-
 
-# 🎉 eEntify – Smart Event Management Platform
+# 🎉 eventify – Smart Event Management Platform
 
-eEntify is a web-based event management and registration platform built for hackathons, seminars, and college events.  
+eventify is a web-based event management and registration platform built for hackathons, seminars, and college events.  
 It allows organizers to manage events easily and participants to register, interact, and stay updated in real-time.  
 
 ---
