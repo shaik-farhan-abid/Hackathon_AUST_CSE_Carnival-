@@ -1,5 +1,5 @@
 # Hackathon_AUST_CSE_Carnival-
-
+(Pushed into master branch)
 # 🎉 eventify – Smart Event Management Platform
 
 eventify is a web-based event management and registration platform built for hackathons, seminars, and college events.  
